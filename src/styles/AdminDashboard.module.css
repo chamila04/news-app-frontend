@@ -1,0 +1,151 @@
+/* General Page Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5; /* Soft light gray */
+  color: #2d2d2d; /* Dark gray for readability */
+  margin: 0;
+  padding: 0;
+}
+
+/* Admin Dashboard Container */
+.container {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 25px;
+  background-color: #fafafa; /* Soft off-white */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading Message */
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.5rem;
+  color: #a33a3a; /* Muted red */
+  font-weight: 600;
+}
+
+/* Table Styles */
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 25px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  text-align: center; /* Center text horizontally */
+  vertical-align: middle; /* Center text vertically */
+  border-bottom: 1px solid #ddd;
+}
+
+/* Status Badge Styling */
+.status {
+  text-transform: capitalize;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.pending {
+  background-color: #f5d3a7; /* Muted orange */
+  color: #7d4b17;
+}
+
+.accept {
+  background-color: #b8dfb5; /* Soft green */
+  color: #2e6b2e;
+}
+
+.reject {
+  background-color: #e8a7a7; /* Light red */
+  color: #842727;
+}
+
+/* Table Header Styles */
+.table th {
+  background-color: #a33a3a; /* Muted red */
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Action Button Styling */
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+/* Accept Button Styling */
+.button.accept {
+  background-color: #a4d8a1; /* Subtle light green */
+  color: #2e6b2e;
+}
+
+.button.accept:hover {
+  background-color: #90c589; /* Slightly darker green */
+}
+
+/* Reject Button Styling */
+.button.reject {
+  background-color: #f7b4b4; /* Subtle light red */
+  color: #842727;
+}
+
+.button.reject:hover {
+  background-color: #f49b9b; /* Slightly darker red */
+}
+
+/* Admin Options Styling */
+.options {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.option button {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 15px 30px;
+  background-color: #a33a3a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option button:hover {
+  background-color: #7d2e2e;
+}
+
+/* Back Button Container */
+.backButtonContainer {
+  margin-bottom: 20px;
+}
+
+/* Specific Styles for the Back Button */
+.button.back {
+  background-color: #7d2e2e; /* Updated to dark maroon */
+  color: white;
+}
+
+/* Hover Effect for Buttons */
+.button:hover {
+  opacity: 0.9;
+}
