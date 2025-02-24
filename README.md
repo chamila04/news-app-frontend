@@ -1,3 +1,14 @@
+Admin dashboard of SriCast android app
+android app github repo - "https://github.com/chamila04/NewsApp"
+
+
+
+
+---
+---
+---
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
